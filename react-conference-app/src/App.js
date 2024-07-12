@@ -10,7 +10,7 @@ import Footer from './components/Footer';
 function App() {
   return (
     <Router>
-      <div>
+      <div className="container" >
         <Header />
         <Routes>
           <Route path="/agenda" element={<Agenda />} />
